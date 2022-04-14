@@ -13,3 +13,13 @@ h1 {
     font-size: 50px;
     color: red;
 }
+
+div {
+    background: pink;
+    width: auto;
+}
+
+span {
+    color: yellow;
+    font-size: 30px;
+}
