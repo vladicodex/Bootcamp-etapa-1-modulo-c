@@ -9,17 +9,25 @@ p {
     color: white;
 }
 
+#intro{
+    font-size: 35px;
+}
+
 h1 {
     font-size: 50px;
     color: red;
 }
 
-div {
+.top-section {
     background: pink;
     width: auto;
 }
 
-span {
+.bottom-section {
     color: yellow;
     font-size: 30px;
+}
+
+.highlight {
+    background-color: greenyellow;
 }
