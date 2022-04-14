@@ -31,3 +31,19 @@ h1 {
 .highlight {
     background-color: greenyellow;
 }
+
+/*
+Margin: empty space arpund my element
+Border: a border / stroke / around my element
+Padding: empty space WITH background around my element
+
+ALL of these ADD on top of the width and height!
+*/
+
+.box {
+    background: pink;
+    width: 300px;
+    padding: 500px;
+    margin: 100px;
+    border: 10px solid red;
+}
