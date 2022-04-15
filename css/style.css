@@ -2,11 +2,15 @@ body {
     background-color: rgb(0, 162, 255);
     color: white;
     font-size: 25px;
-    font-family: sans-serif;
+    font-family: Futura, sans-serif; /*Esta es una buena practica que anade una fuente por default si la propuesta no esta instalada en la maquina de la persona que ejecute la web*/
 }
 
 p {
     color: white;
+    margin-bottom: 50px;
+    line-height: 50px;
+    font-style: oblique;
+    text-align: justify;
 }
 
 #intro{
@@ -16,6 +20,7 @@ p {
 h1 {
     font-size: 50px;
     color: red;
+    font-family:  'Times New Roman', Times, serif;
 }
 
 .top-section {
@@ -50,4 +55,18 @@ ALL of these ADD on top of the width and height!
     padding: 500px;
     margin: 100px;
     border: 20px solid rgb(119, 0, 255);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.light {
+    font-weight: lighter;
+    text-decoration: underline;
+    text-transform: uppercase;
 }
