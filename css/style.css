@@ -41,9 +41,13 @@ ALL of these ADD on top of the width and height!
 */
 
 .box {
-    background: pink;
-    width: 300px;
+    background-image: url(../imgs/coolbg.jpg);
+    background-repeat:no-repeat;
+    background-size:cover ;
+    background-position: center;
+
+    width: auto;
     padding: 500px;
     margin: 100px;
-    border: 10px solid red;
+    border: 20px solid rgb(119, 0, 255);
 }
