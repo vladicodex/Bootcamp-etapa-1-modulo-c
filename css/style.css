@@ -3,6 +3,7 @@ body {
     color: white;
     font-size: 25px;
     font-family: Futura, sans-serif; /*Esta es una buena practica que anade una fuente por default si la propuesta no esta instalada en la maquina de la persona que ejecute la web*/
+    text-align: center;
 }
 
 p {
@@ -109,4 +110,31 @@ h1, h2{
 
 .important-link{
     color: yellow !important;
+}
+
+ol{
+    list-style-type: upper-alpha;
+}
+
+ul{
+    list-style-image: url(../imgs/bootcamp.jpg);
+    background-color: pink;
+    padding: 50px;
+}
+
+ul li{
+    background: red;
+    margin-bottom: 15px;
+}
+
+ol{
+    background: lightblue;
+    padding: 50px;
+    list-style-position: inside;
+}
+
+ol li{
+    background: blue;
+    margin-bottom: 10px;
+    color: white;
 }
